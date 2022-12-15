@@ -5,10 +5,6 @@
 
     <title>Nicety</title>
     <style>
-        body {
-            margin: 0;
-        }
-
         .navbar {
             height: 70px;
             width: 100%;
@@ -81,11 +77,17 @@
 
         }
 
+        .l1 img {
+            width: 30px;
+            height: 30px;
+            padding-left: 110px;
+        }
+
         .search {
             border: 0;
             width: 45%;
             height: 30px;
-            
+            outline: none;
 
         }
 
@@ -113,6 +115,7 @@
             width: 80%;
             display: flex;
             justify-content: space-between;
+            background-color: white;
         }
 
         #a {
@@ -124,36 +127,64 @@
         }
 
         .mini3 {
-            margin-left: 20px;
+            margin-left: 60px;
             display: flex;
         }
 
-    .middle98 {
-        display: flex;
-        width: 100%;
-        height: 400px;
-    }
-    .middle95 {
-        display: flex;
-        margin-right: 140px;
-        width: 75%;
-        height: 100%;
-        justify-content: center;
-        align-items: center;
-    }
-    .middle95 img {
-        margin-top: 50px;
-        width: 50%;
-        height: 250px;
-    }
-    .CATEGORY1 {
-        width: 25%;
-        height: 100%;
-        margin-left: 170px;
-    }
-    .beut {
-        text-align: center;
-    }
+        #pop {
+            margin-right: 240px;
+            margin-top: 20px;
+            padding-left: 60%;
+        }
+
+        .middle98 {
+            display: flex;
+            width: 100%;
+            height: 400px;
+            margin-bottom: 170px;
+        }
+
+        .middle95 {
+            display: flex;
+            gap: 30px;
+            margin-right: 140px;
+            width: 75%;
+            height: 80%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .middle95 img {
+            margin-top: 200px;
+            width: 70%;
+            height: 250px;
+        }
+
+        .CATEGORY1 {
+            width: 25%;
+            height: 100%;
+            margin-left: 155px;
+        }
+        .middle99 {
+            display: flex;
+            width: 100%;
+            height: 400px;
+            margin-bottom: 170px;
+        }
+        .bottm {
+            width: 25%;
+            height: 100%;
+            margin-left: 155px;
+        }
+
+        .beut {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .b {
+            padding: 5px;
+        }
     </style>
 </head>
 
@@ -181,7 +212,8 @@
 
     <div class="mini">
         <div class="l1">
-            <hr>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Google_Magnifying_Glass.svg/768px-Google_Magnifying_Glass.svg.png"
+                alt="">
             <input class="search" type="text" placeholder="Search SEPHORA">
 
         </div>
@@ -207,9 +239,19 @@
     <div class="mini3">
         <p id="a">SEPHORA / </p>
         <p id="b"> Beauty</p>
+
+        <div id="pop">
+
+            <select name="SORT" id="SORT">
+                <option value="Popularity">Popularity</option>
+                <option value="Popularity">Newest</option>
+                <option value="Popularity">Discount</option>
+            </select>
+        </div>
     </div>
     <div class="middle98">
         <div class="CATEGORY1">
+            <h3>CATEGORY</h3>
             <p>◙ Lip Stick(262)</p>
             <p>◙ Foundation(225)</p>
             <p>◙ Eye Brows(158)</p>
@@ -219,19 +261,20 @@
             <p>◙ Blush(72)</p>
             <p>◙ Lip Gloss(69)</p>
             <p>◙ Masks(67)</p>
-            <p>◙ Eye Palette(59)</p>
             <p>◙ Face Brushes(52)</p>
-            <p>◙ Lip Stain(52)</p>
-            <p>◙ Nail(46)</p>
-            <p>◙ Lip Balm & Treatments(43)</p>
-            <p>◙ Lip Liner(41)</p>
+            <h4> More</h4>
+            <hr>
+            <p>◙ New Arrivals(83)</p>
+            <p>◙ On sale(2067)</p>
+            <hr>
 
         </div>
+
         <div class="middle95">
             <div class="beut">
-                <img  src="https://cdn09.nnnow.com/web-images/medium/styles/NAG35MWAZB5/1603956012732/1.jpg" alt="">
+                <img src="https://cdn09.nnnow.com/web-images/medium/styles/NAG35MWAZB5/1603956012732/1.jpg" alt="">
                 <p>OFFER</p>
-                <h1>SEPHORA COLLECTION</h1>
+                <h2>SEPHORA COLLECTION</h2>
                 <p>Cream Lip Stain - <br></p>
                 <h2>Rs.1,220</h2>
                 <p>4 more offers</p>
@@ -239,19 +282,59 @@
             <div class="beut">
                 <img src="https://cdn00.nnnow.com/web-images/medium/styles/Z383XSKF3ZP/1605194224890/1.jpg" alt="">
                 <p>OFFER</p>
-                <h1>SEPHORA COLLECTION</h1>
-                <p>Cream Lip Stain - <br>
-                    41 Vintage Rosewood</p>
+                <h2>SEPHORA COLLECTION</h2>
+                <p>Cream Lip Stain - <br></p>
                 <h2>Rs.1,220</h2>
                 <p>4 more offers</p>
             </div>
             <div class="beut">
+
                 <img src="https://cdn16.nnnow.com/web-images/medium/styles/DRW0XVO6Z4W/1583388932304/1.jpg" alt="">
                 <p>OFFER</p>
-                <h1>SEPHORA COLLECTION</h1>
+                <h2>SEPHORA COLLECTION</h2>
                 <p>Cream Lip Stain - <br></p>
                 <h2>Rs.1,220</h2>
                 <p>4 more offers</p>
+            </div>
+        </div>
+    </div>
+    <div class="middle99">
+        <div class="bottm">
+            <h3>FILTER BY</h3>
+            <div class="b"><input type="text" placeholder="Gender"></div>
+            <div class="b"><input type="text" placeholder="Brand"></div>
+            <div class="b"><input type="text" placeholder="Size"></div>
+            <div class="b"><input type="text" placeholder="Color"></div>
+            <div class="b"><input type="text" placeholder="Promotion"></div>
+            <div class="b"><input type="text" placeholder="Price"></div>
+            <div class="b"><input type="text" placeholder="Store"></div>
+
+        </div>
+
+        <div class="middle95">
+            <div class="beut">
+                <img src="https://cdn09.nnnow.com/web-images/medium/styles/NCAN34TMHEQ/1632136646216/1.jpg" alt="">
+                <p>OFFER</p>
+                <h2>SEPHORA COLLECTION</h2>
+                <p>Mini Blush Glow</p>
+                <h2>Rs.1,420</h2>
+                <p>2 more offers</p>
+            </div>
+            <div class="beut">
+                <img src="https://cdn07.nnnow.com/web-images/medium/styles/LRGB3E0IOC4/1644913818679/1.jpg" alt="">
+                <p>OFFER</p>
+                <h2>SEPHORA COLLECTION</h2>
+                <p>Sheer Cheek Gel</p>
+                <h2>Rs.1,220</h2>
+                <p>4 more offers</p>
+            </div>
+            <div class="beut">
+                <img src="https://cdn16.nnnow.com/web-images/medium/styles/9ECEVOD314M/1610453183824/1.jpg" alt="">
+                <p>OFFER</p>
+                <h2>SEPHORA COLLECTION</h2>
+                <p>Lovetint Lip</p>
+                <h2>Rs.1,720</h2>
+                <p>2 more offers</p>
             </div>
         </div>
     </div>

@@ -5,6 +5,10 @@
 
     <title>Nicety</title>
     <style>
+        * {
+            text-align: center;
+        }
+
         .navbar {
             height: 70px;
             width: 100%;
@@ -165,15 +169,17 @@
             height: 100%;
             margin-left: 155px;
         }
+
         .middle99 {
             display: flex;
             width: 100%;
             height: 400px;
             margin-bottom: 170px;
         }
+
         .bottm {
             width: 25%;
-            height: 100%;
+            margin-top: 5%;
             margin-left: 155px;
         }
 
@@ -184,6 +190,48 @@
 
         .b {
             padding: 5px;
+        }
+
+        .get {
+            display: flex;
+            margin: auto;
+            text-align: center;
+        }
+
+        .b10 {
+            display: flex;
+
+        }
+
+        .b11 {
+            margin-left: 450px;
+        }
+
+        .b12 {
+            margin-left: 80px;
+        }
+
+        .b13 {
+            margin-left: 80px;
+        }
+
+        .logo {
+            display: flex;
+            justify-content: center;
+            padding: 5px;
+
+        }
+
+        .logo img {
+            width: 4%;
+            height: 25px;
+        }
+
+        .mb {
+            text-align: center;
+        }
+        #btn {
+            background-color: pink;
         }
     </style>
 </head>
@@ -214,7 +262,7 @@
         <div class="l1">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Google_Magnifying_Glass.svg/768px-Google_Magnifying_Glass.svg.png"
                 alt="">
-            <input class="search" type="text" placeholder="Search SEPHORA">
+            <input class="search" type="text" placeholder="Search NICETY">
 
         </div>
         <div class="m1">
@@ -301,6 +349,7 @@
     <div class="middle99">
         <div class="bottm">
             <h3>FILTER BY</h3>
+            <hr>
             <div class="b"><input type="text" placeholder="Gender"></div>
             <div class="b"><input type="text" placeholder="Brand"></div>
             <div class="b"><input type="text" placeholder="Size"></div>
@@ -308,7 +357,9 @@
             <div class="b"><input type="text" placeholder="Promotion"></div>
             <div class="b"><input type="text" placeholder="Price"></div>
             <div class="b"><input type="text" placeholder="Store"></div>
-
+            <div class="b"><input type="text" placeholder="Discount"></div>
+            <div class="b"><input type="text" placeholder="Qulity"></div>
+            <hr>
         </div>
 
         <div class="middle95">
@@ -338,6 +389,93 @@
             </div>
         </div>
     </div>
+    <div class="middle99">
+        <div class="bottm">
+
+        </div>
+
+        <div class="middle95">
+            <div class="beut">
+                <img src="https://cdn07.nnnow.com/web-images/medium/styles/UTF2LFWTJJ8/1555306181480/1.jpg" alt="">
+                <p>OFFER</p>
+                <h2>SEPHORA COLLECTION</h2>
+                <p>Mini Blush Glow</p>
+                <h2>Rs.999</h2>
+                <p>2 more offers</p>
+            </div>
+            <div class="beut">
+                <img src="https://cdn06.nnnow.com/web-images/medium/styles/DMEJ8TM2LF1/1551421031995/1.jpg" alt="">
+                <p>OFFER</p>
+                <h2>SEPHORA COLLECTION</h2>
+                <p>Sheer Cheek Gel</p>
+                <h2>Rs.950</h2>
+                <p>4 more offers</p>
+            </div>
+            <div class="beut">
+                <img src="https://cdn04.nnnow.com/web-images/medium/styles/MQP4Y7EWQTU/1602069322287/1.jpg" alt="">
+                <p>OFFER</p>
+                <h2>SEPHORA COLLECTION</h2>
+                <p>Lovetint Lip</p>
+                <h2>Rs.1,380</h2>
+                <p>2 more offers</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+  <h2>GET THE LASTEST NEWS & OFFERS IN BEAUTY & FASHION</h2>
+    <div>
+        <input type="text" placeholder="Enter your email address">
+        <button id="btn" type="button">
+            SUBSCRIBE
+        </button>
+    </div>
+    <hr>
+
+    <div class="b10">
+        <h4 class="b11">WHO WE ARE</h4>
+        <h4 class="b12"> FREQUENTLY ASKED QUESTIONS</h4>
+        <h4 class="b13">CONTACT US</h4>
+    </div>
+    <div class="logo">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAclBMVEX///8AAADx8fGxsbH39/e+vr6KioopKSkoKCj7+/vg4OBAQECNjY0JCQkNDQ1aWlpfX19LS0tGRkbp6enQ0NCDg4OhoaEjIyPb29urq6vm5uaamprDw8MwMDBubm4dHR02NjaVlZVUVFR3d3dmZmYVFRV4y9GXAAAC9klEQVR4nO3dC3LaMBRGYTAmwUB4Q3iEJqFk/1tshnZSaKfgK1+k3+45C2D0zYAsGyFarbQVeb+7GU6mg/3rqP3V00WjU7P3IvFY7WWL3bfXdvl689QjNtVfTUe3UZcdUw+6fPPVm1V3Kks98JItxkG8z15SD71MRWcW6mu3u6lHX6LuY7ivDsL+tIpPX5gvq/nkhet9VaC4cFXZpy3MJw5AZWE28AAKC+fPLkBdYd/Hpyt0A6oKs17ThT6TjLDw6AfUFO4cgZLCtSdQUhh2L18jYeW7CXWh73tUUXhouvDFGagn9J1mBIUdb6Cc0G89Kip0/xTKCYOfbNdFuPUHigkfGi90v1SoCb0XbHrC98YLHZ9daArvMZNqCf1XbGpC51vfX61Ts85yeoz/R3lq1ll3Aa5Sq85a3AM4TK06L3yieR4cjsuHvxtu+qlRF4VNNOPOQumTdrWQO6el0kx5s4Bldy32O31VmC8WH9vUY7ZlX7MprVbKZL51mqQesTWzsF4fwlbABT/1gM1Zhd9TD9icVbhLPWBzXaOwbjOpfVmqteQsk1VYlx3qv0OIUD+ECPVDiFA/hAj1Q4hQP4QI9UOIUD+EdRDm2ZXyjVG4vfZqP4t8OM38+GE0VO4t6ncbfj97tXSIKKxwOkmV4m2JmqcBtqfRhHf4IUWp9tFmG+u3g171om2YQogQ4f8rfESIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIsHbC5u9UyBIJI24Zqvh/OKFt4gnT7PoaxwN+vk89D8sv1yj6MVhF/u8K6+7L+bVXOxWbd6sm7KC9HkKE+iFEqB9ChPohRKgfQoT6IUSoH0KE+iFEqB9ChPohRKgfQoT6IUSoH0KE+iFEqB9ChPohRKgfQoT6IUSoH0KE+iFEqB9ChPohRKgfQoT6IUSoH0KE+iFEqB9ChPohRKgfQoT6IUSoX/OF1nN46ydc24Cz1OMNaGASRj+a1CHTKbVRD5d1K1vuy/GeZnc+HvgHllpO87YiSVIAAAAASUVORK5CYII="
+            alt="">
+        <img src="data:image/png;base64,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"
+            alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuuta2htwjoPEnXRiajOhGrJJF07XWa0MSkg&usqp=CAU"
+            alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM2e8lCmqriQ7V5gOhtoxyPFReorvRg7dQrA&usqp=CAU"
+            alt="">
+    </div>
+
+    <div class="mb">
+        <h4>BRANDS</h4>
+        <p>Sephora | CollectionBenefit | Cosmetics | Make Up | For EverCoverFX | Stila | NatioBurt's | BeesForeo |
+            Smashbox |Glamglow |Clinique | Estee Lauder | Elizabeth Arden | <br> Givenchy | BobbiBrown | Shiseido OPI
+            Forest Essentials Percy & Reed Boscia | Oscar Blandi | BurberryCK | Fragrances | KenzoTom | FordBvlgari |
+            Carolina Herrera | <br> Davidoff | Giorgio Armani | Montblanc | Paco Rabanne | Yves Saint Laurent | Azzaro |
+            Nina Ricci | Roberto Cavalli | Zirh | Omorfee</p>
+    </div>
+    <div>
+        <h4>MAKEUP</h4>
+        <p>Face | Cheek | Eye | Lip | Nail | Makeup Palettes | Accessories</p>
+    </div>
+    <div>
+        <h4>SKIN CARE</h4>
+        <p>Moisturizers | Cleansers | Treatments | Masks | Eye Care | Sun Care | Lip Treatments</p>
+    </div>
+    <div>
+        <h4>OTHER CATEGORIES</h4>
+        <p>
+            Fragrances | Tools & Brushes
+        </p>
+    </div>
+    <div>
+        <h4>MY NICETY</h4>
+        <p>
+            My orders | Store locator | Sephora Facebook | Sephora Instagram
+        </p>
+    </div>
+
 </body>
 
 </html>

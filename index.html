@@ -42,6 +42,8 @@
 
         .middle h2 {
             text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(250, 107, 129);
 
         }
 
@@ -101,6 +103,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+
+        .m1 h1 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
 
         .r1 {
@@ -230,8 +236,61 @@
         .mb {
             text-align: center;
         }
+
         #btn {
             background-color: pink;
+        }
+
+        .blink {
+            animation: blinker 3.5s linear infinite;
+            sans-serif;
+        }
+
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+
+        .dropbtn {
+            background-color: #04AA6D;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
         }
     </style>
 </head>
@@ -272,18 +331,70 @@
             ">
             <img src="" alt="">
             <img src="" alt="">
-            <p>Login</p>
+            <a href="./Nicetysignup.html">
+                <p>Login</p>
+            </a>
         </div>
     </div>
     <div class="mini2">
-        <h2>SALE</h2>
-        <h2>MAKEUP</h2>
-        <h2>SKINCARE</h2>
-        <h2>FRAGRANCE</h2>
-        <h2>HAIRCARE</h2>
-        <h2>TOOLS & BRUSHES</h2>
-        <h2>BRANDS</h2>
+        <div class="dropdown">
+            <button class="dropbtn">SALE</button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">MAKEUP</button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">SKINCARE</button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">FRAGRANCE</button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">HAIRCARE</button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">TOOLS & BRUSHES</button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">BRANDS</button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
     </div>
+
     <div class="mini3">
         <p id="a">SEPHORA / </p>
         <p id="b"> Beauty</p>
@@ -320,7 +431,9 @@
 
         <div class="middle95">
             <div class="beut">
-                <img src="https://cdn09.nnnow.com/web-images/medium/styles/NAG35MWAZB5/1603956012732/1.jpg" alt="">
+                <img class="blink"
+                    src="https://cdn09.nnnow.com/web-images/medium/styles/NAG35MWAZB5/1603956012732/1.jpg" alt="">
+
                 <p>OFFER</p>
                 <h2>SEPHORA COLLECTION</h2>
                 <p>Cream Lip Stain - <br></p>
@@ -328,7 +441,8 @@
                 <p>4 more offers</p>
             </div>
             <div class="beut">
-                <img src="https://cdn00.nnnow.com/web-images/medium/styles/Z383XSKF3ZP/1605194224890/1.jpg" alt="">
+                <img class="blink"
+                    src="https://cdn00.nnnow.com/web-images/medium/styles/Z383XSKF3ZP/1605194224890/1.jpg" alt="">
                 <p>OFFER</p>
                 <h2>SEPHORA COLLECTION</h2>
                 <p>Cream Lip Stain - <br></p>
@@ -337,7 +451,9 @@
             </div>
             <div class="beut">
 
-                <img src="https://cdn16.nnnow.com/web-images/medium/styles/DRW0XVO6Z4W/1583388932304/1.jpg" alt="">
+                <a href="./productdetails.html"> <img class="blink"
+                        src="https://cdn16.nnnow.com/web-images/medium/styles/DRW0XVO6Z4W/1583388932304/1.jpg"
+                        alt=""></a>
                 <p>OFFER</p>
                 <h2>SEPHORA COLLECTION</h2>
                 <p>Cream Lip Stain - <br></p>
@@ -364,7 +480,8 @@
 
         <div class="middle95">
             <div class="beut">
-                <img src="https://cdn09.nnnow.com/web-images/medium/styles/NCAN34TMHEQ/1632136646216/1.jpg" alt="">
+                <img class="blink"
+                    src="https://cdn09.nnnow.com/web-images/medium/styles/NCAN34TMHEQ/1632136646216/1.jpg" alt="">
                 <p>OFFER</p>
                 <h2>SEPHORA COLLECTION</h2>
                 <p>Mini Blush Glow</p>
@@ -372,7 +489,8 @@
                 <p>2 more offers</p>
             </div>
             <div class="beut">
-                <img src="https://cdn07.nnnow.com/web-images/medium/styles/LRGB3E0IOC4/1644913818679/1.jpg" alt="">
+                <img class="blink"
+                    src="https://cdn07.nnnow.com/web-images/medium/styles/LRGB3E0IOC4/1644913818679/1.jpg" alt="">
                 <p>OFFER</p>
                 <h2>SEPHORA COLLECTION</h2>
                 <p>Sheer Cheek Gel</p>
@@ -380,7 +498,8 @@
                 <p>4 more offers</p>
             </div>
             <div class="beut">
-                <img src="https://cdn16.nnnow.com/web-images/medium/styles/9ECEVOD314M/1610453183824/1.jpg" alt="">
+                <img class="blink"
+                    src="https://cdn16.nnnow.com/web-images/medium/styles/9ECEVOD314M/1610453183824/1.jpg" alt="">
                 <p>OFFER</p>
                 <h2>SEPHORA COLLECTION</h2>
                 <p>Lovetint Lip</p>
@@ -396,7 +515,8 @@
 
         <div class="middle95">
             <div class="beut">
-                <img src="https://cdn07.nnnow.com/web-images/medium/styles/UTF2LFWTJJ8/1555306181480/1.jpg" alt="">
+                <img class="blink"
+                    src="https://cdn07.nnnow.com/web-images/medium/styles/UTF2LFWTJJ8/1555306181480/1.jpg" alt="">
                 <p>OFFER</p>
                 <h2>SEPHORA COLLECTION</h2>
                 <p>Mini Blush Glow</p>
@@ -404,7 +524,8 @@
                 <p>2 more offers</p>
             </div>
             <div class="beut">
-                <img src="https://cdn06.nnnow.com/web-images/medium/styles/DMEJ8TM2LF1/1551421031995/1.jpg" alt="">
+                <img class="blink"
+                    src="https://cdn06.nnnow.com/web-images/medium/styles/DMEJ8TM2LF1/1551421031995/1.jpg" alt="">
                 <p>OFFER</p>
                 <h2>SEPHORA COLLECTION</h2>
                 <p>Sheer Cheek Gel</p>
@@ -412,7 +533,8 @@
                 <p>4 more offers</p>
             </div>
             <div class="beut">
-                <img src="https://cdn04.nnnow.com/web-images/medium/styles/MQP4Y7EWQTU/1602069322287/1.jpg" alt="">
+                <img class="blink"
+                    src="https://cdn04.nnnow.com/web-images/medium/styles/MQP4Y7EWQTU/1602069322287/1.jpg" alt="">
                 <p>OFFER</p>
                 <h2>SEPHORA COLLECTION</h2>
                 <p>Lovetint Lip</p>
@@ -422,7 +544,7 @@
         </div>
     </div>
     <hr>
-  <h2>GET THE LASTEST NEWS & OFFERS IN BEAUTY & FASHION</h2>
+    <h2>GET THE LASTEST NEWS & OFFERS IN BEAUTY & FASHION</h2>
     <div>
         <input type="text" placeholder="Enter your email address">
         <button id="btn" type="button">

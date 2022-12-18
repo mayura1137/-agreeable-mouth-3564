@@ -141,10 +141,9 @@
             display: flex;
         }
 
-        #pop {
-            margin-right: 240px;
-            margin-top: 20px;
-            padding-left: 60%;
+
+        #SORT {
+            border: 0;
         }
 
         .middle98 {
@@ -253,11 +252,12 @@
         }
 
         .dropbtn {
-            background-color: #04AA6D;
-            color: white;
+            background-color: #f2b8ca;
+            color: rgb(60, 23, 23);
             padding: 16px;
             font-size: 16px;
             border: none;
+            border-radius: 10px;
         }
 
         .dropdown {
@@ -290,7 +290,11 @@
         }
 
         .dropdown:hover .dropbtn {
-            background-color: #3e8e41;
+            background-color: #d50886;
+        }
+
+        .log111 {
+            color: black;
         }
     </style>
 </head>
@@ -331,8 +335,8 @@
             ">
             <img src="" alt="">
             <img src="" alt="">
-            <a href="./Nicetysignup.html">
-                <p>Login</p>
+            <a class="log111" href="./Nicetysignup.html">
+                Login
             </a>
         </div>
     </div>
@@ -348,65 +352,136 @@
         <div class="dropdown">
             <button class="dropbtn">MAKEUP</button>
             <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+                <a href="#">
+                    <h6>FACES</h6>
+                    <p>Foundation
+                        BB & CC Cream
+                        Concealer
+                        Face Primer
+                        Highlighter
+                        Face Brushes
+                        Makeup Palette</p>
+                </a>
+                <a href="#">
+                    <h6>EYE</h6>
+                    <p>
+                        Eye Palettes
+                        Mascara
+                        Eyeliner
+                        Eyebrow
+                        Eyeshadow
+                        Eye Primer
+                        Eye Brushes
+                        Contact Lenses</p>
+                </a>
+                <a href="#">
+                    <h6>LIP</h6>
+                    <p>
+                        Lipstick
+                        Lip Stain
+                        Lip Gloss
+                        Lip Liner
+                        Lip Balm & Treatment
+                        Lip Brushes</p>
+                </a>
             </div>
-          </div>
-          <div class="dropdown">
+        </div>
+        <div class="dropdown">
             <button class="dropbtn">SKINCARE</button>
             <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+                <a href="#">
+                    <h6>MOISTURIZERS</h6>
+                    <p>
+                        Moisturizers
+                        Night Creams
+                        Mists & Essences
+                        BB & CC Creams</p>
+                </a>
+                <a href="#">
+                    <h6>CLEANSERS</h6>
+                    <p>
+                        Face Wash & Cleansers
+                        Makeup Removers
+                        Face Wipes
+                        Toners</p>
+                </a>
             </div>
-          </div>
-          <div class="dropdown">
+        </div>
+        <div class="dropdown">
             <button class="dropbtn">FRAGRANCE</button>
             <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+                <a href="#">
+                    <h6>WOMEN</h6>
+                    <p>
+                        Perfume
+                        Mists and Deodorants</p>
+                </a>
+                <a href="#">
+                    <h6>MEN</h6>
+                    <p>
+                        Perfume
+                        Body Sprays & Deodorant
+                    </p>
+                </a>
             </div>
-          </div>
-          <div class="dropdown">
+        </div>
+        <div class="dropdown">
             <button class="dropbtn">HAIRCARE</button>
             <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+                <a href="#">
+                    <h6>SHAMPOO & CONDITIONER</h6>
+                    <p>
+                        Shampoo
+                        Conditioner</p>
+                </a>
             </div>
-          </div>
-          <div class="dropdown">
+        </div>
+        <div class="dropdown">
             <button class="dropbtn">TOOLS & BRUSHES</button>
             <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+                <a href="#">
+                    <h6>BRUSHES</h6>
+                    <p>
+                        Face Brushes
+                        Eye Brushes
+                        Lip Brushes</p>
+                </a>
             </div>
-          </div>
-          <div class="dropdown">
+        </div>
+        <div class="dropdown">
             <button class="dropbtn">BRANDS</button>
             <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+                <a href="#">
+                    <h6>TOP MAKEUP BRANDS</h6>
+                    <p>
+                        Nicety Collection
+                        Lancôme
+                        Huda Beauty
+                        Benefit Cosmetics
+                        Anastasia Beverly Hills
+                        Bobbi Brown
+                        Smashbox
+                        Estee Lauder
+                        Nudestix
+                        MAC
+                        Make Up For Ever
+                        Guerlain</p>
+                </a>
             </div>
-          </div>
+        </div>
     </div>
 
     <div class="mini3">
         <p id="a">SEPHORA / </p>
         <p id="b"> Beauty</p>
+    </div>
+    <div class="pop">
 
-        <div id="pop">
-
-            <select name="SORT" id="SORT">
-                <option value="Popularity">Popularity</option>
-                <option value="Popularity">Newest</option>
-                <option value="Popularity">Discount</option>
-            </select>
-        </div>
+        <select name="SORT" id="SORT">
+            <option value="Popularity">Popularity</option>
+            <option value="Popularity">Newest</option>
+            <option value="Popularity">Discount</option>
+        </select>
     </div>
     <div class="middle98">
         <div class="CATEGORY1">
@@ -597,6 +672,7 @@
             My orders | Store locator | Sephora Facebook | Sephora Instagram
         </p>
     </div>
+
 
 </body>
 
